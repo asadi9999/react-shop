@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav{
+    @apply absolute p-2 flex  justify-center gap-10 items-center z-10 w-full text-red-400 text-xl
+}
+.navli{
+    @apply hover:underline transition-all
+}
+.nav-main{
+    @apply fixed z-30 w-full bg-gray-500
+}
+.btn-cart{
+    @apply bg-orange-600 text-white p-2 rounded-lg h-max hover:shadow-lg hover:transition-all
+}
